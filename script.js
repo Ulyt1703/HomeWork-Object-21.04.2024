@@ -1,4 +1,4 @@
-/* let car = {
+let car = {
     brand: "Mercedes",
     year: 2023,
     model: "S600",
@@ -7,18 +7,18 @@
 for(let prop in car){
     console.log(prop)
     console.log(car[prop])
-} */
+}
 
-/* let planet = {
+let planet = {
     name: "Mercury",
     year: "infinite",
     popular: "8E",
     klimaat: "Very Warm",
 }
 let newPlanet = Object.entries(planet)
-console.log(newPlanet) */
+console.log(newPlanet)
 
-/* let numbers = {
+let numbers = {
     superNumber: 200000,
     keyBirthday: 2009,
     keyYears: 15,
@@ -26,7 +26,7 @@ console.log(newPlanet) */
 }
 let newNumbers = Object.values(numbers)
 let neW = Math.max(...newNumbers)
-console.log(neW) */
+console.log(neW)
 
 /* let caR = {
     brand: "BMW",
@@ -38,7 +38,7 @@ for(let key in caR){
     console.log(caR[key])
 } */
 
-/* let caR = {
+let caR = {
     brand: "Nissan",
     year: 2020,
     model: "GTR",
@@ -47,9 +47,9 @@ let newCar = Object.keys(caR)
 let secondCar = Object.values(caR)
 
 let joinCar = [...newCar, ...secondCar]
-console.log(joinCar) */
+console.log(joinCar)
 
-/* let user = {
+let user = {
     name: 'Mango',
     age: 20,
     hobby: 'html',
@@ -60,9 +60,9 @@ user.hobby = "skydiving"
 user.premium = false
 for(let key of Object.keys(user)){
     console.log(`${key}: ${user[key]}`)
-} */
+}
 
-/* let workers = {
+let workers = {
     ann: 29,
     david: 35,
     helen: 1,
@@ -102,9 +102,9 @@ console.log(
         kiwi: 19,
         chelsy: 38,
     }),
-); // lux */
+); // lux
 
-/* let countTotalSalary = function(employees) {
+let countTotalSalary = function(employees) {
     let totalSalary = 0;
 
     for(let key in employees) {
@@ -128,11 +128,11 @@ console.log(
         lux: 50, 
         chelsy: 150, 
     }), 
-) */
+)
 
 
 
-/* let products = [ 
+let products = [ 
     { name: 'Радар', price: 1300, quantity: 4 }, 
     { name: 'Сканер', price: 2700, quantity: 3 }, 
     { name: 'Дроїд', price: 400, quantity: 7 }, 
@@ -153,11 +153,11 @@ console.log(getAllPropValues(products, 'name')) // ['Радар', 'Сканер'
 
 console.log(getAllPropValues(products, 'quantity')) // [4, 3, 7, 2] 
 
-console.log(getAllPropValues(products, 'category')) // [] */
+console.log(getAllPropValues(products, 'category')) // []
 
 
 
-/* let productsThird = [ 
+let productsThird = [ 
     { name: 'Радар', price: 1300, quantity: 4 }, 
     { name: 'Сканер', price: 2700, quantity: 3 }, 
     { name: 'Дроїд', price: 400, quantity: 7 }, 
@@ -177,7 +177,7 @@ let calculateTotalPrice = function(allProdcuts, productName){
 
 console.log(calculateTotalPrice(products, 'Радар')); // 5200 
 
-console.log(calculateTotalPrice(products, 'Дроїд')); // 2800 */
+console.log(calculateTotalPrice(products, 'Дроїд')); // 2800
 
 
 
